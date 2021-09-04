@@ -1,0 +1,32 @@
+.name-color-green{
+    display: block;
+    color: green;
+}
+.one{
+    display: block;
+    color: greenyellow;
+    font-size: 25px;
+}
+.two{
+    display: block;
+    color: hotpink;
+    font-size: 25px;
+}
+.rainbow-number{
+    display: flex;
+}
+.three{
+    display: block;
+    color: maroon;
+    font-size: 25px;
+}
+.four{
+    display: block;
+    color: red;
+    font-size: 25px;
+}
+.five{
+    display: block;
+    color: tan;
+    font-size: 25px;
+}
