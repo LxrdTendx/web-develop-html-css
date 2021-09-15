@@ -1,0 +1,131 @@
+body{
+    height: 2400px;
+    width: 900px;
+    background: cadetblue;
+}
+.ex{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.ex7{
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+.ex8-number{
+    display: flex;
+
+}
+.ex8-color1{
+    color: green;
+}
+.ex8-color2{
+    color: greenyellow;
+}
+.ex8-color3{
+    color: grey;
+}
+.ex8-color4{
+    color: honeydew;
+}
+.ex8-color5{
+    color: hotpink;
+}
+.ex8-color6{
+    color:indianred
+}
+.ex8-color7{
+    color: indigo;
+}
+.ex8-color8{
+    color: khaki;
+}
+.ex8-color9{
+    color: lightcoral;
+}
+.ex8-color10{
+    color: lightgreen;
+}
+.ex9{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ex10-offer{
+    display: flex;
+}
+.ex10-1{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.ex10-2{
+    font-family: 'Calibri', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.ex10-3{
+    font-family: 'Abadi', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.ex10-4{
+    font-family: 'Acumin', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.ex11{
+    font-size: 15px;
+
+}
+.ex12{
+    display: flex;
+}
+h2, h3, h4{
+    margin: 0;
+}
+hr{
+    background: #000;
+    display: block;
+    width: 100%;
+    color: black;
+    height: 2px;
+}
+.convert{
+    width: 300px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.addressee{
+
+    transform: translate(-50%, -50%);
+    width: 206px;
+    position:relative;
+    top: 40%;
+    left: 50%;
+}
+.pop{
+    height: 200px;
+    width: 200px;
+}
+.bob{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000;
+}
+.popp{
+    height: 250px;
+    width: 250px;
+}
