@@ -144,7 +144,7 @@ function range(chislo1,chislo2, shag=1){
     console.log(arr)
 }
 
-//range(10,5,-1)
+//range(5,10,2)
 
 function sum(arr){
     let chislo=0
@@ -154,7 +154,7 @@ function sum(arr){
     console.log(chislo)
 }
 
-//sum([1,2,3,5,7])
+//sum([55,3,4,5,765,5])
 
 
 //задание 7
@@ -166,7 +166,7 @@ function reverseArray(arr){
     console.log(newarr)
 }
 
-//reverseArray([4,5,6,7,8])
+//reverseArray([1,2,3,4,5,6,7,8,9,10])
 
 
 function reverseArrayInPlace(arr){
@@ -185,4 +185,4 @@ function reverseArrayInPlace(arr){
     console.log(arr)
 }
 
-reverseArrayInPlace([2,3,4,5,6])
+//reverseArrayInPlace([56,345,97,35,86])
