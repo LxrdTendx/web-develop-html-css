@@ -65,10 +65,22 @@ console.log(obj.method1().method2().method3())
 
 
 //Задание 15
-function Card(from, to){
-    this.from = from;
-    this.to = to;
+var Card = {
+    from:"Moscow",
+    to:"SPb",
+    get Show() {
+        return "from:"+this.from + " " + "to:" + this.to;
+    },
+
+    set Show(value) {
+        var split = value.split(' ');
+        this.from = split[0];
+        this.to = split[1];
+    }
 }
+let c1="Екатеринбург Москва"
+Card.Show=c1
+console.log(Card.Show)
 
 //Задание 16
 class Human {
@@ -105,22 +117,25 @@ for (let human of humans)
     console.log(human.getInfo());
 
 //Задание 17
-
-var items = [
-    { name: 'Edward', value: 21 },
-    { name: 'Sharpe', value: 37 },
-    { name: 'And', value: 45 },
-    { name: 'The', value: -12 },
-    { name: 'Magnetic' },
-    { name: 'Zeros', value: 37 }
+var a = [
+	{FirsName:"Ellie", LastName:"Williams"},
+	{FirstName:"Lara", LastName : "Croft"}
 ];
-items.sort(function (a, b) {
-    if (a.name > b.name) {
-      return 1;
-    }
-    if (a.name < b.name) {
-      return -1;
-    }
-    // a должно быть равным b
+function SortArray(x, y){
+    if (x.LastName < y.LastName) {return -1;}
+    if (x.LastName > y.LastName) {return 1;}
     return 0;
+}
+var s = a.sort(SortArray);
+// console.log(s);
+
+var numbers = [4, 2, 5, 1, 3];
+numbers.sort(function(a, b) {
+  return a - b;
 });
+console.log(numbers);
+
+//Задание 18
+var date = new Date(2045, 0, 1, 0, 0, 0, 0)
+dt1 = date
+console.log(dt1);
