@@ -139,3 +139,17 @@ console.log(numbers);
 var date = new Date(2045, 0, 1, 0, 0, 0, 0)
 dt1 = date
 console.log(dt1);
+
+//Задание 19
+var now = new Date();
+var dt2 = now.getTime();
+console.log(dt2)
+
+//Задание 20
+function getDays (month, year) { 
+    return new Date(year, month, 0).getDate();
+}
+  
+console.log(getDays(9, 2002));
+console.log(getDays(9, 2020));
+
