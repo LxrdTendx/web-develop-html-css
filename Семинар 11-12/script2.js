@@ -402,3 +402,15 @@ function getDays (month, year) {
 console.log(getDays(9, 2002));
 console.log(getDays(9, 2020));
 
+//Задание 22
+let extNum ={
+    __proto__:Number,
+    isOdd(val){
+        if (val % 2 != 0) {
+            return true
+        }
+    }
+}
+
+
+console.log(extNum.isOdd(3))
